@@ -28,5 +28,6 @@ export default {
 body {
   background: 	#778899;
 }
+@import 'assets/styles/vendors/bootstrap.min.scss';
 @import 'assets/styles/scss/style.scss';
 </style>

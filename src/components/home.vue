@@ -1,5 +1,5 @@
 <template>
-  <div class="home">
+  <div class="home container">
     <h1>{{headerText}}</h1>
     <h3>{{headerBlurb}}</h3>
     <p>{{mainContent}}</p>
