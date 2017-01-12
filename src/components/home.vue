@@ -3,8 +3,6 @@
     <h1>{{headerText}}</h1>
     <h3>{{headerBlurb}}</h3>
     <p>{{mainContent}}</p>
-    <h2>Latest Posts:</h2>
-    <latest-posts></latest-posts>
   </div>
 </template>
 
@@ -13,7 +11,7 @@ import LatestPosts from './latestPosts'
 export default {
   name: 'home-page',
   components: {
-    LatestPosts
+
   },
   data() {
     return {
@@ -26,6 +24,6 @@ export default {
 }
 </script>
 
-<style>
+<style lang="scss">
 
 </style>
