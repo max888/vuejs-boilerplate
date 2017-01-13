@@ -1,11 +1,11 @@
 <template>
-  <div class="blog-post">
+  <div class="blog-post container">
     <h2>{{currentPost.title}}</h2>
     <p>this is post number {{ currentPost.id }}</p>
     <br>
     content:
     <br>
-    <img v-if="!loaded" src="../assets/Loading_icon.gif" alt="">
+    <img v-if="!loaded" src="../assets/images/sponge.gif" alt="">
     {{currentPost.body}}
     <br>
     <!-- <button type="button" name="button" v-on:click="nextPost(currentPost.id)">Next</button> -->

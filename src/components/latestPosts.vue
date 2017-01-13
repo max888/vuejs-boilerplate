@@ -1,6 +1,6 @@
 <template>
   <div class="latest-posts">
-  <img v-if="!loaded" src="../assets/Loading_icon.gif" alt="">
+  <img v-if="!loaded" src="../assets/images/sponge.gif" alt="">
     <ul>
       <li v-for="post in latestPosts">
         <router-link :to="'blog/' + post.id.toString()" >{{post.id}}{{post.title}}</router-link>

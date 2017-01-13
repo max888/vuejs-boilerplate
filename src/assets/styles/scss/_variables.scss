@@ -1,0 +1,29 @@
+@import url('https://fonts.googleapis.com/css?family=Bangers|Bungee+Shade|Hammersmith+One|Inconsolata|Montserrat+Alternates|Permanent+Marker|Reem+Kufi');
+
+// font-family: 'Bungee Shade', cursive;
+// font-family: 'Inconsolata', monospace;
+// font-family: 'Permanent Marker', cursive;
+// font-family: 'Bangers', cursive;
+// font-family: 'Hammersmith One', sans-serif;
+// font-family: 'Montserrat Alternates', sans-serif;
+// font-family: 'Reem Kufi', sans-serif;
+
+
+
+
+// colors
+$blue: rgb(0,0,255);
+$yellow: #fff5cc;
+
+
+// fonts
+$bungee: 'Bungee Shade', cursive;
+
+h1, h2, h3, h4 {
+  font-family: Arial, sans-serif;
+  color: $blue;
+}
+
+p {
+  font-family: courier;
+}

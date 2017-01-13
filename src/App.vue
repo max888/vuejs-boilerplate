@@ -16,18 +16,28 @@ export default {
 </script>
 
 <style lang="scss">
-#app {
-  font-family: 'Avenir', Helvetica, Arial, sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-  text-align: center;
-  color: #2c3e50;
-  margin-top: 60px;
-}
-
-body {
-  background: 	#778899;
-}
 @import 'assets/styles/vendors/bootstrap.min.scss';
 @import 'assets/styles/scss/style.scss';
+nav {
+  padding-top: 31px;
+  padding-bottom: 44px;
+  ul, li {
+    list-style: none;
+    margin: 0px;
+    padding: 0px;
+    display: flex;
+    justify-content: center;
+
+  }
+  li {
+    font-family: $bungee;
+    width: 33%;
+    font-size: 35px;
+    line-height: 45px;
+    a {
+      color: $blue;
+    }
+
+  }
+}
 </style>

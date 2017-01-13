@@ -9,6 +9,7 @@ import Test from './components/Test'
 import Home from './components/Home'
 import Blog from './components/Blog'
 import BlogPost from './components/BlogPost'
+import Contact from './components/Contact'
 
 
 
@@ -22,6 +23,7 @@ const router = new VueRouter({
     {path:'/', component: Home},
     {path:'/blog', component: Blog},
     {path:'/blog/:id', component: BlogPost},
+    {path:'/contact', component: Contact},
     {path:'/users', component: Users},
     {path: '/test', component: Test}
   ]
@@ -32,12 +34,15 @@ new Vue({
   router,
   template: `
     <div id="app">
-      <ul>
-      <li><router-link to="/">Home</router-link></li>
-      <li><router-link to="/users">Users</router-link></li>
-      <li><router-link to="/test">test</router-link></li>
-      <li><router-link to="/blog">Blog</router-link></li>
-      </ul>
+    <div class="container">
+      <nav>
+        <ul>
+        <li><router-link to="/">Home</router-link></li>
+        <li><router-link to="/blog">Blog</router-link></li>
+        <li><router-link to="/contact">Contact</router-link></li>
+        </ul>
+      </nav>
+    </div>
       <router-view></router-view>
     </div>
     `,
